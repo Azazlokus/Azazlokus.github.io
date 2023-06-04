@@ -1,0 +1,104 @@
+/*Styles for PostForm*/
+.postform__container{
+    display: flex;
+    padding: 20px 10px 20px 10px;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    column-gap: 52px;
+}
+.postform__create{
+    width: 145px;
+    height: 50px;
+    background: linear-gradient(180deg, #D556FB 3.44%, rgba(5, 0, 255, 0.86755) 98.22%, #325CDE 98.23%);
+    background-blend-mode: darken;
+    opacity: 0.7;
+    border: 2px solid #B3B3B3;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.postform__input{
+    width: 863px;
+    height: 50px;
+    background: rgba(75, 61, 239, 0.14);
+
+    border-radius: 10px;
+}
+.postform__btn{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.postform__icon{
+    width: 50px;
+    height: 50px;
+}
+
+/*Styles for PostList*/
+.postlist__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 20px;
+    height: 100%;
+}
+
+/*Styles for PostItem*/
+.postitem__container{
+    background-color: #FFFFFF;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border-radius: 20px;
+    padding: 20px 40px 20px 40px;
+}
+.postitem__header{
+    display: flex;
+    column-gap: 25px;
+}
+.postitem__header_img{
+    width: 60px;
+    height: 60px;
+}
+.postitem__header_text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+.postitem__header_username{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+}
+.postitem__header_dateofcreate{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.postitem__content_text{
+    height: 100%;
+    font-size: 50px;
+    font-weight: 600;
+    word-break: break-all;
+}
+.postitem__footer{
+    display: flex;
+    justify-content: space-around;
+}
+.postitem__footer_likes{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.postitem__footer_img{
+    width: 50px;
+    height: 50px;
+}
+.postitem__footer_likevalue{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 20px;
+}
